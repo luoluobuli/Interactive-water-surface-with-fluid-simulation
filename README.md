@@ -58,7 +58,9 @@ Submit your Design doc as usual via pull request against this repository.
 - Implemented an emitter with grid2D, with simple simulation and rendering - writes the updated color at each frame to a render rarget and renders on screen.
 - Can update the grid cell's velocity based on a texture input
 
-  ![](img/milestone1-1.gif)
+<p align="center">
+  <img width="500" src="img/milestone1-1.gif" />
+</p>
 
 ### Procedural generation (McKenna):
 Got Houdini Engine pipeline set up on laptop, tried dragging in .hda file from procedural building and it seemed to work because the Houdini logo showed up as a placeholder but when the file is open, no building shows up. I'll have to look more into this for the next checkpoint. For now, I am working on creating assets for the procedural wasteland city. Pictured below is a building made with the current procedural setup I have in Houdini, based off of [this tutorial](https://www.youtube.com/watch?v=PfcbekTodWw) on the Houdini YouTube channel. The procedural generation for the building itself is setup, just need to add procedural windows and have the presence of window panes be procedural as well. Then put into Unreal and make multiple buildings in the area with different seeds.
@@ -67,16 +69,18 @@ Got Houdini Engine pipeline set up on laptop, tried dragging in .hda file from p
 
 
 ## Milestone 2: Implementation part 2 (due 11/24)
-We're over halfway there! This week should be about fixing bugs and extending the core of your generator. Make sure by the end of this week _your generator works and is feature complete._ Any core engine features that don't make it in this week should be cut! Don't worry if you haven't managed to exactly hit your goals. We're more interested in seeing proof of your development effort than knowing your planned everything perfectly. 
 
-Put all your code in your forked repository.
+### Fluid Sim (Joanne):
+- More physics: calculate divergence and pressure, and apply to velocity.
+<p align="center">
+  <img width="500" src="img/milestone2-1.gif" />
+</p>
 
-Submission: Add a new section to your README titled: Milestone #3, which should include
-- written description of progress on your project goals. If you haven't hit all your goals, what did you have to cut and why? 
-- Detailed output from your generator, images, video, etc.
-We'll check your repository for updates. No need to create a new pull request.
+- Character interaction
+<p align="center">
+  <img width="500" src="img/milestone2-2.gif" />
+</p>
 
-Come to class on the due date with a WORKING COPY of your project. We'll be spending time in class critiquing and reviewing your work so far.
 
 ## Final submission (due 12/1)
 Time to polish! Spen this last week of your project using your generator to produce beautiful output. Add textures, tune parameters, play with colors, play with camera animation. Take the feedback from class critques and use it to take your project to the next level.
