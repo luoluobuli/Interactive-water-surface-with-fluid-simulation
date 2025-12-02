@@ -3,7 +3,8 @@
 
 This project features an interactive water surface that reacts in real time to objects and characters, using a custom fluid simulation and water shader.
 
-This project used a Diversion repo to keep track of changes.
+This project used a Diversion repo to keep track of changes. All Unreal files have been added to the main GitHub repo for submission.
+
 ![](img/diversion.png)
 
 ## Design Doc
